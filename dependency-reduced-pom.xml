@@ -19,7 +19,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>com.oddschecker.app.MainClass</mainClass>
+                  <mainClass>com.oddschecker.app.OddsChecker</mainClass>
                 </transformer>
               </transformers>
             </configuration>
