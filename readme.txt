@@ -1,7 +1,8 @@
 This application uses Java 1.8 and maven and log4j.
 
-- In order to build the application run the following maven command:
+- In order to build the application run the following maven command, result of this command is to generate .jar file in target directory:
   mvn clean package
+ 
 
 - Inorder to run the app, navigate to the jar file directory and run the following command:
    java -jar OddsCheckerApp.jar eventId
