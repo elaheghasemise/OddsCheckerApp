@@ -15,7 +15,7 @@ public class OddsChecker {
     }
 
     private static void validateInput(String[] input) {
-        if (input.length == 0 || !input[0].matches("[0-9]")) {
+        if (input.length == 0 || !input[0].matches("[0-9]+")) {
             log.warn("Please enter single valid MATCH eventId!");
             System.exit(0);
         }
